@@ -1,0 +1,971 @@
+human : Robin
+system : Linux
+node : Atrius
+release : 6.8.0-63-generic
+version : #66-Ubuntu SMP PREEMPT_DYNAMIC Fri Jun 13 20:25:30 UTC 2025
+machine : x86_64
+processor : x86_64
+
+enterprise_extensions v3.0.2
+PTMCMCSampler v2.1.2
+enterprise v3.4.4,  Python v3.12.10
+==========================================================================================
+
+Signal Name                              Signal Class                   no. Parameters      
+==========================================================================================
+F0012+2106_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F0012+2106_measurement_noise             MeasurementNoise               0                   
+
+params:
+F0012+2106_efac:Constant=1.0                                                              
+F0012+2106_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F0012+2106_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F0086+2930_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F0086+2930_measurement_noise             MeasurementNoise               0                   
+
+params:
+F0086+2930_efac:Constant=1.0                                                              
+F0086+2930_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F0086+2930_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F0186-0958_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F0186-0958_measurement_noise             MeasurementNoise               0                   
+
+params:
+F0186-0958_efac:Constant=1.0                                                              
+F0186-0958_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F0186-0958_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F0251+6194_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F0251+6194_measurement_noise             MeasurementNoise               0                   
+
+params:
+F0251+6194_efac:Constant=1.0                                                              
+F0251+6194_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F0251+6194_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F0257-0895_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F0257-0895_measurement_noise             MeasurementNoise               0                   
+
+params:
+F0257-0895_efac:Constant=1.0                                                              
+F0257-0895_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F0257-0895_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F0263-5142_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F0263-5142_measurement_noise             MeasurementNoise               0                   
+
+params:
+F0263-5142_efac:Constant=1.0                                                              
+F0263-5142_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F0263-5142_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F0280+7936_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F0280+7936_measurement_noise             MeasurementNoise               0                   
+
+params:
+F0280+7936_efac:Constant=1.0                                                              
+F0280+7936_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F0280+7936_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F0284+5849_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F0284+5849_measurement_noise             MeasurementNoise               0                   
+
+params:
+F0284+5849_efac:Constant=1.0                                                              
+F0284+5849_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F0284+5849_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F0313+6306_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F0313+6306_measurement_noise             MeasurementNoise               0                   
+
+params:
+F0313+6306_efac:Constant=1.0                                                              
+F0313+6306_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F0313+6306_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F0386-4082_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F0386-4082_measurement_noise             MeasurementNoise               0                   
+
+params:
+F0386-4082_efac:Constant=1.0                                                              
+F0386-4082_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F0386-4082_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F0431-5811_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F0431-5811_measurement_noise             MeasurementNoise               0                   
+
+params:
+F0431-5811_efac:Constant=1.0                                                              
+F0431-5811_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F0431-5811_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F0583+7117_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F0583+7117_measurement_noise             MeasurementNoise               0                   
+
+params:
+F0583+7117_efac:Constant=1.0                                                              
+F0583+7117_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F0583+7117_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F0631-4729_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F0631-4729_measurement_noise             MeasurementNoise               0                   
+
+params:
+F0631-4729_efac:Constant=1.0                                                              
+F0631-4729_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F0631-4729_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F0688-3108_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F0688-3108_measurement_noise             MeasurementNoise               0                   
+
+params:
+F0688-3108_efac:Constant=1.0                                                              
+F0688-3108_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F0688-3108_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F0695-1771_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F0695-1771_measurement_noise             MeasurementNoise               0                   
+
+params:
+F0695-1771_efac:Constant=1.0                                                              
+F0695-1771_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F0695-1771_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F0730+1243_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F0730+1243_measurement_noise             MeasurementNoise               0                   
+
+params:
+F0730+1243_efac:Constant=1.0                                                              
+F0730+1243_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F0730+1243_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F0738+0279_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F0738+0279_measurement_noise             MeasurementNoise               0                   
+
+params:
+F0738+0279_efac:Constant=1.0                                                              
+F0738+0279_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F0738+0279_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F0854+5573_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F0854+5573_measurement_noise             MeasurementNoise               0                   
+
+params:
+F0854+5573_efac:Constant=1.0                                                              
+F0854+5573_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F0854+5573_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F0887+5688_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F0887+5688_measurement_noise             MeasurementNoise               0                   
+
+params:
+F0887+5688_efac:Constant=1.0                                                              
+F0887+5688_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F0887+5688_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F0887-9000_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F0887-9000_measurement_noise             MeasurementNoise               0                   
+
+params:
+F0887-9000_efac:Constant=1.0                                                              
+F0887-9000_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F0887-9000_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F0917+5390_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F0917+5390_measurement_noise             MeasurementNoise               0                   
+
+params:
+F0917+5390_efac:Constant=1.0                                                              
+F0917+5390_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F0917+5390_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F0973-8819_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F0973-8819_measurement_noise             MeasurementNoise               0                   
+
+params:
+F0973-8819_efac:Constant=1.0                                                              
+F0973-8819_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F0973-8819_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F1030-4467_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F1030-4467_measurement_noise             MeasurementNoise               0                   
+
+params:
+F1030-4467_efac:Constant=1.0                                                              
+F1030-4467_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F1030-4467_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F1034+8764_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F1034+8764_measurement_noise             MeasurementNoise               0                   
+
+params:
+F1034+8764_efac:Constant=1.0                                                              
+F1034+8764_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F1034+8764_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F1110-2669_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F1110-2669_measurement_noise             MeasurementNoise               0                   
+
+params:
+F1110-2669_efac:Constant=1.0                                                              
+F1110-2669_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F1110-2669_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F1170-6800_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F1170-6800_measurement_noise             MeasurementNoise               0                   
+
+params:
+F1170-6800_efac:Constant=1.0                                                              
+F1170-6800_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F1170-6800_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F1240+4235_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F1240+4235_measurement_noise             MeasurementNoise               0                   
+
+params:
+F1240+4235_efac:Constant=1.0                                                              
+F1240+4235_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F1240+4235_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F1242+3995_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F1242+3995_measurement_noise             MeasurementNoise               0                   
+
+params:
+F1242+3995_efac:Constant=1.0                                                              
+F1242+3995_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F1242+3995_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F1253-2293_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F1253-2293_measurement_noise             MeasurementNoise               0                   
+
+params:
+F1253-2293_efac:Constant=1.0                                                              
+F1253-2293_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F1253-2293_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F1262+1366_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F1262+1366_measurement_noise             MeasurementNoise               0                   
+
+params:
+F1262+1366_efac:Constant=1.0                                                              
+F1262+1366_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F1262+1366_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F1319-1266_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F1319-1266_measurement_noise             MeasurementNoise               0                   
+
+params:
+F1319-1266_efac:Constant=1.0                                                              
+F1319-1266_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F1319-1266_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F1450+7141_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F1450+7141_measurement_noise             MeasurementNoise               0                   
+
+params:
+F1450+7141_efac:Constant=1.0                                                              
+F1450+7141_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F1450+7141_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F1464+6252_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F1464+6252_measurement_noise             MeasurementNoise               0                   
+
+params:
+F1464+6252_efac:Constant=1.0                                                              
+F1464+6252_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F1464+6252_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F1479-8241_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F1479-8241_measurement_noise             MeasurementNoise               0                   
+
+params:
+F1479-8241_efac:Constant=1.0                                                              
+F1479-8241_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F1479-8241_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F1499-7246_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F1499-7246_measurement_noise             MeasurementNoise               0                   
+
+params:
+F1499-7246_efac:Constant=1.0                                                              
+F1499-7246_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F1499-7246_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F1512-3794_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F1512-3794_measurement_noise             MeasurementNoise               0                   
+
+params:
+F1512-3794_efac:Constant=1.0                                                              
+F1512-3794_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F1512-3794_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F1609+7096_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F1609+7096_measurement_noise             MeasurementNoise               0                   
+
+params:
+F1609+7096_efac:Constant=1.0                                                              
+F1609+7096_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F1609+7096_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F1642+3216_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F1642+3216_measurement_noise             MeasurementNoise               0                   
+
+params:
+F1642+3216_efac:Constant=1.0                                                              
+F1642+3216_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F1642+3216_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F1658-5967_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F1658-5967_measurement_noise             MeasurementNoise               0                   
+
+params:
+F1658-5967_efac:Constant=1.0                                                              
+F1658-5967_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F1658-5967_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F1768+1761_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F1768+1761_measurement_noise             MeasurementNoise               0                   
+
+params:
+F1768+1761_efac:Constant=1.0                                                              
+F1768+1761_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F1768+1761_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F1790+4459_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F1790+4459_measurement_noise             MeasurementNoise               0                   
+
+params:
+F1790+4459_efac:Constant=1.0                                                              
+F1790+4459_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F1790+4459_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F1791-6040_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F1791-6040_measurement_noise             MeasurementNoise               0                   
+
+params:
+F1791-6040_efac:Constant=1.0                                                              
+F1791-6040_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F1791-6040_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F1863-0805_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F1863-0805_measurement_noise             MeasurementNoise               0                   
+
+params:
+F1863-0805_efac:Constant=1.0                                                              
+F1863-0805_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F1863-0805_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F1931-7228_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F1931-7228_measurement_noise             MeasurementNoise               0                   
+
+params:
+F1931-7228_efac:Constant=1.0                                                              
+F1931-7228_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F1931-7228_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F2010+4196_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F2010+4196_measurement_noise             MeasurementNoise               0                   
+
+params:
+F2010+4196_efac:Constant=1.0                                                              
+F2010+4196_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F2010+4196_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F2106-1554_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F2106-1554_measurement_noise             MeasurementNoise               0                   
+
+params:
+F2106-1554_efac:Constant=1.0                                                              
+F2106-1554_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F2106-1554_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F2267-5762_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F2267-5762_measurement_noise             MeasurementNoise               0                   
+
+params:
+F2267-5762_efac:Constant=1.0                                                              
+F2267-5762_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F2267-5762_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F2337-8572_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F2337-8572_measurement_noise             MeasurementNoise               0                   
+
+params:
+F2337-8572_efac:Constant=1.0                                                              
+F2337-8572_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F2337-8572_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F2379+1820_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F2379+1820_measurement_noise             MeasurementNoise               0                   
+
+params:
+F2379+1820_efac:Constant=1.0                                                              
+F2379+1820_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F2379+1820_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+F2387-3185_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+F2387-3185_measurement_noise             MeasurementNoise               0                   
+
+params:
+F2387-3185_efac:Constant=1.0                                                              
+F2387-3185_log10_t2equad:Constant=-inf                                                    
+__________________________________________________________________________________________
+F2387-3185_gw_crn                        BasisGP                        2                   
+
+Basis shape (Ntoas x N basis functions): (244, 60)
+N selected toas: 244
+
+params:
+gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)                                                
+gw_crn_gamma:Uniform(pmin=0, pmax=7)                                                      
+__________________________________________________________________________________________
+==========================================================================================
+Total params: 102
+Varying params: 2
+Common params: 100
+Fixed params: 100
+Number of pulsars: 50
