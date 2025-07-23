@@ -1,2 +1,0 @@
-gw_crn_gamma:Uniform(pmin=0, pmax=7)
-gw_crn_log10_A:Uniform(pmin=-20, pmax=-11)

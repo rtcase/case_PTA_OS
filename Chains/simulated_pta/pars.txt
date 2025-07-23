@@ -1,0 +1,2 @@
+gw_crn_gamma
+gw_crn_log10_A

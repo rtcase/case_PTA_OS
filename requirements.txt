@@ -1,3 +1,4 @@
-# We will need the numpy, scipy, enterprise, and enterprise extensions. 
+# We will need the numpy, scipy, enterprise, enterprise extensions, and la-forge
 pip install enterprise-pulsar
 pip install enterprise-extensions
+pip install la-forge
